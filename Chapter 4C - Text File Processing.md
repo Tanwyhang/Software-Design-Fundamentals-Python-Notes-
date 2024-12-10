@@ -73,3 +73,33 @@ Python's shutil module provides high-level file operations:
 
 shutil.copy(src, dst) - copies the file src to location dst
 shutil.move(src, dst) - moves the file src to location dst
+
+
+Sure, here's an example of using the `shutil.copy()` and `shutil.move()` functions from the Python `shutil` module:
+
+```python
+import shutil
+import os
+
+# shutil.copy(src, dst)
+# Copying a file
+src_file = 'example.txt'
+dst_file = 'copied_example.txt'
+shutil.copy(src_file, dst_file)
+print(f"Copied {src_file} to {dst_file}")
+
+# shutil.move(src, dst)
+# Moving a file
+src_file = 'moved_example.txt'
+dst_dir = 'new_folder'
+os.makedirs(dst_dir, exist_ok=True)
+dst_path = os.path.join(dst_dir, 'moved_example.txt')
+shutil.move(src_file, dst_path)
+print(f"Moved {src_file} to {dst_path}")
+```
+
+In the first example, we use `shutil.copy()` to create a copy of the file `example.txt` and save it as `copied_example.txt` in the same directory.
+
+In the second example, we use `shutil.move()` to move the file `moved_example.txt` to a new directory named `new_folder`. We first create the `new_folder` directory using `os.makedirs()` with `exist_ok=True` to avoid an error if the directory already exists. Then, we construct the full destination path by joining the directory name and the new file name, and pass that to `shutil.move()`.
+
+The `shutil` module provides a simple and convenient way to perform common file operations in Python, such as copying, moving, and deleting files and directories, without having to worry about the low-level details.
