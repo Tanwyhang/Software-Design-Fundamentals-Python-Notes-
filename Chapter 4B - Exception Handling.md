@@ -148,8 +148,9 @@ Code in the `finally` block is guaranteed to run, making it ideal for freeing re
 
 I hope this teacher-like breakdown helps clarify exception handling for you! Let me know if any part needs more explanation. Next, I suggest practicing catching and raising exceptions in your own code to reinforce these concepts.
 
+## A short recap of all common errors
 <pre>
-   SyntaxError
+SyntaxError
 occur when there is a typo in the program
 </pre>
 
