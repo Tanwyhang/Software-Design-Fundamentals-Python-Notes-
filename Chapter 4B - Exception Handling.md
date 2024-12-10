@@ -209,6 +209,7 @@ ImportError
 occurs the system cannot find the module that the program is trying to import
 </pre>
 
+<pre>
 AttributeError
 occurs when referencing a method/attr/property of an object that does not exist
 
