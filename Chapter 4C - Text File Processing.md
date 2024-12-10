@@ -67,3 +67,9 @@ Python's `shutil` module provides high-level file operations:
 - `shutil.move(src, dst)` - moves the file *src* to location *dst*
 
 I hope this explanation helps solidify your understanding of processing text files in Python! Let me know if you have any other questions. I encourage you to practice working with files in your own programs to really internalize these concepts.
+
+
+Python's shutil module provides high-level file operations:
+
+shutil.copy(src, dst) - copies the file src to location dst
+shutil.move(src, dst) - moves the file src to location dst
