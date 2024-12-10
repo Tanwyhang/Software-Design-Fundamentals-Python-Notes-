@@ -147,3 +147,69 @@ finally:
 Code in the `finally` block is guaranteed to run, making it ideal for freeing resources like files or network connections.
 
 I hope this teacher-like breakdown helps clarify exception handling for you! Let me know if any part needs more explanation. Next, I suggest practicing catching and raising exceptions in your own code to reinforce these concepts.
+
+<pre>
+   SyntaxError
+occur when there is a typo in the program
+</pre>
+
+
+<pre>
+IndentationError
+occur when there is unmatched indentation in the program
+</pre>
+
+
+<pre>
+NameError
+occurs when the variable referenced is not defined in the program
+</pre>
+
+<pre>
+TypeError
+Occurs when carrying out operation between data of an innapropriate type (also can be function parameter being passed by the wrong data type)
+</pre>
+
+
+<pre>
+ValueError
+occur when operation of the correct type but with the innapropriate values
+eg. float('abc') raises a ValueError but float('123') does not
+</pre>
+
+
+<pre>
+IndexError
+occurs when a sequence/list is indexed with a value out f the range of that particular sequence
+</pre>
+
+
+<pre>
+ZeroDivisionError
+occurs when trying to divide/modulus a number by zero
+</pre>
+
+<pre>
+KeyError
+occurs when the specified key is non-existent in the referenced dictionary
+</pre>
+
+<pre>
+IOError
+occurs when input/output operations fails
+</pre>
+
+<pre>
+FileNotFoundError
+occurs when the file with specified path is not found within the given directory
+</pre>
+
+<pre>
+ImportError
+occurs the system cannot find the module that the program is trying to import
+</pre>
+
+AttributeError
+occurs when referencing a method/attr/property of an object that does not exist
+
+</pre>
