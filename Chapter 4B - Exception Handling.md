@@ -2,6 +2,63 @@ Here is a clear, structured summary of the key concepts from the Exception Handl
 
 # Exception Handling in Python
 
+
+1. **Syntax Errors**:
+   - These errors occur when the Python interpreter encounters a syntactical mistake in your code, such as a missing colon, incorrect indentation, or a misspelled keyword.
+   - Examples: `SyntaxError`, `IndentationError`
+
+2. **Name Errors**:
+   - These errors occur when a variable or function name is not found in the current scope.
+   - Examples: `NameError`
+
+3. **Type Errors**:
+   - These errors occur when an operation or function is applied to an object of an inappropriate type.
+   - Examples: `TypeError`
+
+4. **Value Errors**:
+   - These errors occur when a function receives an argument of the correct type but an inappropriate value.
+   - Examples: `ValueError`
+
+5. **Index Errors**:
+   - These errors occur when a sequence (such as a list or string) is indexed with a value that is out of range.
+   - Examples: `IndexError`
+
+6. **Key Errors**:
+   - These errors occur when a dictionary key that does not exist is accessed.
+   - Examples: `KeyError`
+
+7. **Zero Division Errors**:
+   - These errors occur when the second argument of a division or modulo operation is zero.
+   - Examples: `ZeroDivisionError`
+
+8. **I/O Errors**:
+   - These errors occur when an input/output operation fails, such as when a file cannot be opened or read.
+   - Examples: `IOError`, `FileNotFoundError`
+
+9. **Import Errors**:
+   - These errors occur when a module or a package cannot be imported.
+   - Examples: `ImportError`
+
+10. **Attribute Errors**:
+    - These errors occur when an attribute reference (such as a method or property) fails.
+    - Examples: `AttributeError`
+
+11. **Memory Errors**:
+    - These errors occur when the system runs out of memory to allocate for the program.
+    - Examples: `MemoryError`
+
+12. **Overflow Errors**:
+    - These errors occur when the result of an arithmetic operation is too large to be represented by the available storage.
+    - Examples: `OverflowError`
+
+13. **Assertion Errors**:
+    - These errors occur when an `assert` statement fails.
+    - Examples: `AssertionError`
+
+14. **System Errors**:
+    - These errors are related to the interpreter itself and are generally not encountered by users.
+    - Examples: `SystemError`, `SystemExit`
+
 ## What are Exceptions?
 An exception in Python is an unexpected event that occurs during the execution of a program, disrupting the normal flow of the code. Some common examples you may have encountered:
 - Dividing a number by zero raises a `ZeroDivisionError`
