@@ -59,6 +59,19 @@ Here is a clear, structured summary of the key concepts from the Exception Handl
     - These errors are related to the interpreter itself and are generally not encountered by users.
     - Examples: `SystemError`, `SystemExit`
 
+<pre>
+SyntaxError: print "Hello, world!"
+NameError: print(undefined_variable)
+TypeError: "hello" + 5
+ValueError: int("hello")
+IndexError: my_list = [1, 2, 3]; print(my_list[3])
+KeyError: my_dict = {'a': 1, 'b': 2}; print(my_dict['c'])
+ZeroDivisionError: 5 / 0
+IOError: with open('non_existent_file.txt', 'r') as file: content = file.read()
+ImportError: import non_existent_module
+AttributeError: 'hello'.nonexistent_method()
+</pre>
+
 ## What are Exceptions?
 An exception in Python is an unexpected event that occurs during the execution of a program, disrupting the normal flow of the code. Some common examples you may have encountered:
 - Dividing a number by zero raises a `ZeroDivisionError`
